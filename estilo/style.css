@@ -1,0 +1,126 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+:root
+{
+                 --normal: Verdana, Geneva, Tahoma, sans-serif;
+                 --poema:'Satisfy', cursive;
+                 --titulo:'Passion One', cursive;
+
+}
+
+
+*
+{
+                 padding: 0px;
+                 margin: 0px;
+}
+
+html, body 
+{
+                 min-height: 100vh;
+                 font-family: var(--normal);
+}
+
+/* =================================================================*/
+
+header
+{
+                 background-color: black;
+                 color: white;
+                 text-align: center;         
+}
+
+header>h1 
+{
+                 font-family: var(--titulo);
+                 padding: 40px;
+                 font-variant: small-caps;  
+                 font-size: 4em; 
+}
+
+header>p 
+{
+               padding: 36px;
+               padding-top: 1px;
+               font-size: 10px;
+}
+
+
+/* =================================================================*/
+section
+{
+                 font-family: var(--poema);
+                 padding-top: 10vh;
+                 padding-bottom: 10vh;
+                 line-height: 2em;
+                 padding-left: 30px;
+                 font-size: 112%;
+                 box-shadow: inset  6px 6px 13px 0px rgba(0, 0, 0, 0.384);
+}
+
+
+section.imagem
+{
+                 background-color: rgba(43, 42, 42, 0.63);
+                 color: white;
+                 background-attachment: fixed;     
+}
+
+section.imagem > p
+{
+                 background-color: rgba(0, 0, 0, 0.63);
+                 color: white;
+                 padding: 5%;
+                 width: 323px;
+}
+
+section p
+{
+                 padding: 5%;
+}
+
+section#img01
+{
+                 background-image: url(../imagens/7.jpg);
+                 background-repeat: no-repeat;
+                 background-size:cover;
+                 background-position: left;
+}
+
+section#img02
+{
+                 background-image: url(../imagens/1.jpg);
+                 background-repeat: no-repeat;
+                 background-size:cover;
+                 background-position: left;
+}
+
+section#img03
+{
+                 background-image: url(../imagens/9.jpg);
+                 background-repeat: no-repeat;
+                 background-size:cover;
+}
+
+
+
+/* =================================================================*/
+
+footer
+{
+                 background-color:black;
+                 padding: 10px;
+                 text-align:center;
+                 color: white;
+}
+
+footer a
+{
+                 text-decoration: none;
+                 font-weight: bold;
+                 color: white;
+                 font-size: 13px;
+}
